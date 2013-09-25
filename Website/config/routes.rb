@@ -4,8 +4,15 @@ Alpha::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'application#index'
+   root 'home#index'
+
    get 'home/index/:pathvar', to: 'home#index'
+
+
+   
+
+
+#>>>>>>> b9f9d9107809e8440f67664336dec2711d8a35db:config/routes.rb
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
